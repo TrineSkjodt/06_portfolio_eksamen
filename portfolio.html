@@ -7,23 +7,28 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="16x16" href="image/favicon.png">
+    <!--  Fonts   -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <nav>
-            <img href="index.html" src="image/sort_logo.png" alt="">
-            <a href="portfolio.html">Portfolio</a>
-            <a href="cv.html">Om</a>
-            <a href="index.html">Home</a>
-
+            <img src="image/sort_logo.png" alt="Logo">
+            <div id="menuknap">☰</div>
+            <ul id="menu" class="hidden">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="cv.html">Om</a></li>
+            </ul>
         </nav>
     </header>
 
     <!------------------------------------------- Forside Logo + Menubar ------------------------------------------->
     <main>
-        <img src="image/austin-chan-ukzHlkoz1IE-unsplash.jpg" alt="">
+        <img src="image/austin-chan-ukzHlkoz1IE-unsplash.jpg" alt="Forside Billede">
         <section id="second_section">
             <div class="section_wrapper">
                 <div class="col2">
@@ -33,17 +38,41 @@
                     <a href="http://trineskjoedt.dk/kea/02_web/02_html/responsive_site_v2/index.html"><img src="image/respon.png" alt="Responsive Site"></a>
                 </div>
                 <div class="col">
-                    <a><img src="image/skaerm_resposive.jpg"></a>
+                    <div class="col">
+                        <a><img src="image/Billede_respons.png" alt="Billede"></a>
+                    </div>
+                    <!--
+                    <div class="col">
+                        <a><img src="image/skaermbillede_moodboard.jpg" alt="Billede"></a>
+                    </div>
+-->
                 </div>
 
                 <div class="center">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam necessitatibus, quas molestiae qui. <br>
-                        Nobis, pariatur at maxime magnam possimus totam ad quod dolorem voluptate, odio, ut sunt excepturi nisi atque. <br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis optio quasi vitae totam quia dignissimos, <br>
-                        aliquam maiores ullam. Eos laboriosam architecto quo voluptatibus. Illum ullam totam quo, obcaecati quibusdam voluptatem. <br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-                        Iure numquam minima optio amet nesciunt praesentium voluptates cumque ipsa nostrum asperiores modi commodi, <br>
-                        culpa hic sunt iste unde vero quod debitis.</p>
+                    <p>Primært fokus - Komposition og layout, designproces og dokumentationsform, udvekslingsformat, modellerig, strukturering og udvikling, teknologier og client-server relationer.
+                        <br>
+                        <br>
+                        I denne opgave blev jeg tildelt stilarten Retro Video Game. Efter længere research og uden egentlig at blive klogere , gik jeg med Retro Coffee House. Ved fremsilling af wireframe lavede jeg en hurtig skitse, efterfølgende oparbejdede jeg det hele i Adobe XD, herved fik jeg kendskab til programmet. Jeg har udarbejdet et moodboard og et styletil i Abobe Illustrator, da jeg allerede har kendskab til dette program. Mit første wireframe design var min absolute favorite, men på daværende tidspunkt havde jeg ikke kompetancer nok til at kode det.
+                        Hjemmesiden er kodet og opbygget i et gridbaseret layout med html og stylet med css, herefter skal den være responsive, først i mobile-first og efterfølgende i desktop version. Mit splash billede design er lavet i både Photoshop og Illustrator, efterfølgende har jeg gemt billederne som jpg , vectorfilerne er gemt som png filer. ligeledes har jeg designet mit favicon i Illustrator og gemt som png.
+                        Jeg kan godt lide at blande typografier, en metode jeg har brugt meget i mit fag som skiltetekniker, derfra har jeg også min viden og kendskab til typografi. Det er nyt for mig at bruge sider som feks. Google Font.
+                        Alle billederne på mit site er royalty free billeder, de har alle gennegået drag & drop i Squoosh for at komprimere disse.
+                        <br>
+                        <br>
+                        JPG - billedeformat som gør brug af millioner af farver, og gøre dette med relativt små filstørrelser. <br>
+                        PSD - billedefil der blandt andet bruges til fotobehandling og andet grafisk arbejde. <br>
+                        AI - vektorbaserede filer bruges almindeligvis af grafiske designere. Filerne er små, men billederne er uendeligt resizable.
+                        De er perfekte til tegninger, og især logoer og ikoner. <br>
+                        PNG - format velegnet til web elementer som f.eks. logo, knapper og tillader transparant baggrund.
+                    </p>
+
+                    <!--
+                    <p>JPG - billedeformat som gør brug af millioner af farver, og gøre dette med relativt små filstørrelser. <br>
+                        PSD - billedefil der blandt andet bruges til fotobehandling og andet grafisk arbejde. <br>
+                        AI - vektorbaserede filer bruges almindeligvis af grafiske designere. Filerne er små, men billederne er uendeligt resizable.
+                        De er perfekte til tegninger, og især til ting som logoer og ikoner. <br>
+                        PNG - format velegnet til web elementer som f.eks. logo, knapper og tillader transparant baggrund.</p>
+-->
+
                 </div>
 
             </div>
@@ -58,16 +87,15 @@
                     <a href="ide/03.01.05_endelig_skitse_Trine_Sabine_Mette.jpg"><img src="image/ide.png" alt="Ide"></a>
                 </div>
                 <div class="col">
-                    <a><img src="image/ide.jpg"></a>
+                    <a><img src="image/ide.jpg" alt="Billede"></a>
                 </div>
                 <div class="center">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam necessitatibus, quas molestiae qui. <br>
-                        Nobis, pariatur at maxime magnam possimus totam ad quod dolorem voluptate, odio, ut sunt excepturi nisi atque. <br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis optio quasi vitae totam quia dignissimos, <br>
-                        aliquam maiores ullam. Eos laboriosam architecto quo voluptatibus. Illum ullam totam quo, obcaecati quibusdam voluptatem. <br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-                        Iure numquam minima optio amet nesciunt praesentium voluptates cumque ipsa nostrum asperiores modi commodi, <br>
-                        culpa hic sunt iste unde vero quod debitis.</p>
+                    <p>Primært fokus - Teknologi, metode og teori, teknologi og brugerforståelse.
+                        <br>
+                        <br>
+                        Denne opgave har jeg desværre ikke lavet og afleveret grundet sygdom. Jeg har dog linket til 03.01.05 Endelige Skitse opgaven som er lavet i gruppen. <br>
+                        Jeg kan dog fortælle kort om min Ide. SHE-TEE er en online webshop, der udelukkende tilbyder produkter med feministisk billedsprog. Jeg synes det i dag er vigtig at stå ved hvem man er og hvad man står for.
+                    </p>
 
                 </div>
             </div>
@@ -75,30 +103,34 @@
                 <a href="https://xd.adobe.com/view/6831ce07-fdbf-4e17-a5a0-10f74a787d39-3d62/"><img src="image/endelig-prototype.png" alt="Endelig Prototype"></a>
             </div>
             <div class="col">
-                <a><img src="image/skaerm_endelig_ptototype.jpg"></a>
+                <a><img src="image/skaerm_endelig_ptototype.jpg" alt="Billede"></a>
                 <div class="center">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam necessitatibus, quas molestiae qui. <br>
-                        Nobis, pariatur at maxime magnam possimus totam ad quod dolorem voluptate, odio, ut sunt excepturi nisi atque. <br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis optio quasi vitae totam quia dignissimos, <br>
-                        aliquam maiores ullam. Eos laboriosam architecto quo voluptatibus. Illum ullam totam quo, obcaecati quibusdam voluptatem. <br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-                        Iure numquam minima optio amet nesciunt praesentium voluptates cumque ipsa nostrum asperiores modi commodi, <br>
-                        culpa hic sunt iste unde vero quod debitis.</p>
+                    <p>Primært fokus - Multimediedesignerens placering i
+                        værdikæden, teknologi, metode og teori, brugerforståelse.
+                        <br>
+                        <br>
+                        I denne opgave fik jeg et endnu større kendskab til Adobe XD, Jeg har heldigvis en masse erfaring med Adobe programmerne fra mit tidligere fag, og jeg følte mig derfor helt hjemme i Adobe XD.
+                        Her har jeg lært at producere digital indhold ud fra desk research, surverys, interviews og tænk-højt test. Jeg har samlet data og fået indsigt i hvordan brugeren i samspil med UI konventioner, har betydning for brugens oplevelse og adfærd af et digitalt produkt.
+                        Jeg har fået viden omkring prototyper, UI kits og online
+                        værktøjer til research og hvor stor en betydning copy- og micro copywriting, har en stor indflydelse på brugeren, og gør det nemmere at overtale brugeren til at købe produktet.
+                        Jeg har fået øjnene op for, hvordan indsamlet data kan bruges til at lette en arbejdsproces, og til Multimediedesigners placering i værdikæden.
+                    </p>
                 </div>
             </div>
             <div class="col1">
                 <a href="pitch/03.03.03-pitch.pdf"><img src="image/pitch.png" alt="Pitch"></a>
             </div>
             <div class="col">
-                <a><img src="image/skaerm_pitch.jpg"></a>
+                <a><img src="image/Billede_ide.png" alt="Billede"></a>
                 <div class="center">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam necessitatibus, quas molestiae qui. <br>
-                        Nobis, pariatur at maxime magnam possimus totam ad quod dolorem voluptate, odio, ut sunt excepturi nisi atque. <br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis optio quasi vitae totam quia dignissimos, <br>
-                        aliquam maiores ullam. Eos laboriosam architecto quo voluptatibus. Illum ullam totam quo, obcaecati quibusdam voluptatem. <br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
-                        Iure numquam minima optio amet nesciunt praesentium voluptates cumque ipsa nostrum asperiores modi commodi, <br>
-                        culpa hic sunt iste unde vero quod debitis.</p>
+                    <p>Primært fokus - Multimediedesignerens placering i
+                        værdikæden, teknologi, metode og teori, brugerforståelse.
+                        <br>
+                        <br>
+                        Til opgave Endelig Prototype skulle vi pitche vores koncept.
+                        Jeg har ud fra testes og research prøvet så godt jeg kunne at præsentere de fire kategorier: Et problem, En vision, En kort historie; Et citat og noget der tiltaler.
+                        Jeg har igennem designprocessen prøvet at dokumentere min proces med billeder, moodboard og styletile. Jeg kan godt lide et stilrent og tydeligt design hvor der igennem hele sitet er en rød tråd.
+                    </p>
                 </div>
 
             </div>
@@ -113,7 +145,7 @@
                     <a href="assetliste_&_design/assetliste_og_designdokumentation.jpg"><img src="image/assetliste.png" alt="Assetliste & Designdokumentation"></a>
                 </div>
                 <div class="col">
-                    <a><img src="image/skaerm_assentliste.jpg"></a>
+                    <a><img src="image/Billede_assetliste.png"></a>
                 </div>
                 <div class="center">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam necessitatibus, quas molestiae qui. <br>
@@ -128,7 +160,7 @@
                     <a href="http://trineskjoedt.dk/kea/04_animation/spil_0.2/index.html"><img src="image/individuelt.png" alt="Individuelt spil"></a>
                 </div>
                 <div class="col">
-                    <a><img src="image/skaerm_indivisuelt.jpg"></a>
+                    <a><img src="image/skaerm_indivisuelt.jpg" alt="Billede"></a>
                 </div>
                 <div class="center">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam necessitatibus, quas molestiae qui. <br>
@@ -153,7 +185,7 @@
                     <a href="http://trineskjoedt.dk/kea/05_indhold/05_01_01/index.html"><img src="image/pilot.png" alt="Pilotprojekt"></a>
                 </div>
                 <div class="col">
-                    <a><img src="image/skaerm_manus.jpg"></a>
+                    <a><img src="image/skaerm_manus.jpg" alt="Billede"></a>
                 </div>
                 <div class="center">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam necessitatibus, quas molestiae qui. <br>
@@ -166,10 +198,11 @@
                 </div>
 
                 <div class="col1">
-                    <a href="https://angry-dijkstra-af9f33.netlify.app/forside.html"><img src="image/redesign.png" alt="Redesign og temadokumentation"></a>
+                    <a href="redesign/05.pdf"><img src="image/redesign.png" alt="Redesign og temadokumentation"></a>
                 </div>
                 <div class="col">
-                    <a><img src="image/skaerm_kyoto.jpg"></a>
+                    <a href="https://angry-dijkstra-af9f33.netlify.app/forside.html"><img src="image/skaerm_kyoto.jpg" alt="Redesign og temadokumentation"></a>
+                    <!--                    <a><img src="image/skaerm_kyoto.jpg"></a>-->
                 </div>
                 <div class="center">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam necessitatibus, quas molestiae qui. <br>
@@ -190,14 +223,15 @@
 
 
     <div class="footer">
-        <img class="footer_logo" src="image/logo-2.png" alt="">
+        <img class="footer_logo" src="image/logo-2.png" alt="Footer">
         <br>
-        <a href="https://www.facebook.com/mini.skjodt/"><img class="iconer" src="image/facebook_logo.png" alt=""></a>
-        <a href="https://www.instagram.com/t.skjodt/"><img class="iconer" src="image/instagram_logo.png" alt=""></a>
-        <a href="https://www.linkedin.com/in/trine-skjødt-391b1310b/"> <img class="iconer" src="image/linkdin_logo.png" alt=""></a>
-        <a href="mailto:mini.skjodt@icloud.com"><img class="iconer" src="image/mail_logo.png" alt=""></a>
+        <a href="https://www.facebook.com/mini.skjodt/"><img class="iconer" src="image/facebook_logo.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/t.skjodt/"><img class="iconer" src="image/instagram_logo.png" alt="Inastagram"></a>
+        <a href="https://www.linkedin.com/in/trine-skjødt-391b1310b/"> <img class="iconer" src="image/linkdin_logo.png" alt="Linkedin"></a>
+        <a href="mailto:mini.skjodt@icloud.com"><img class="iconer" src="image/mail_logo.png" alt="Mail"></a>
 
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

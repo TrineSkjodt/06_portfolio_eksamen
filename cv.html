@@ -7,28 +7,34 @@
     <title>Om</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="16x16" href="image/favicon.png">
+    <!--  Fonts   -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
-            <img href="index.html" src="image/sort_logo.png" alt="">
-            <a href="portfolio.html">Portfolio</a>
-            <a href="cv.html">Om</a>
-            <a href="index.html">Home</a>
+            <img src="image/sort_logo.png" alt="Logo">
+            <div id="menuknap">☰</div>
+            <ul id="menu" class="hidden">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="cv.html">Om</a></li>
+            </ul>
         </nav>
     </header>
 
 
     <main>
-        <img src="image/ux.jpg" alt="">
+        <img src="image/ux.jpg" alt="Billede">
         <section id="sixt_section">
             <div class="section_wrapper">
                 <div class="col">
                     <div class="col">
                         <h2>Om Mig</h2>
                     </div>
-                    <img src="image/mig.jpg" alt="">
+                    <img src="image/mig.jpg" alt="Billede">
                     <p>Mit navn er Trine Skjødt, jeg er 33år og oprindelig fra Ribe, Danmarks ældste by. <br>
                         Jeg er uddannet Skiltetekniker fra Silkeborg tilbage i 2012, og har stået i lærer på Østerbro i Kbh. <br>
                         Skiltefaget er mit drømme fag, men en ulykke i 2017 har sat en stopper for min drøm om at fortsætte, <br>
@@ -40,7 +46,7 @@
                 </div>
                 <div class="col_cv">
                     <a href="cv/cv2020logo.png"><img src="cv/cv2020logo.png" alt="Cv"></a>
-<!--                    <img src="cv/cv2020logo.png" alt="">-->
+                    <!--                    <img src="cv/cv2020logo.png" alt="">-->
                 </div>
 
             </div>
@@ -57,14 +63,15 @@
 
 
     <div class="footer">
-        <img class="footer_logo" src="image/logo-2.png" alt="">
+        <img class="footer_logo" src="image/logo-2.png" alt="Billede">
         <br>
-        <a href="https://www.facebook.com/mini.skjodt/"><img class="iconer" src="image/facebook_logo.png" alt=""></a>
-        <a href="https://www.instagram.com/t.skjodt/"><img class="iconer" src="image/instagram_logo.png" alt=""></a>
-        <a href="https://www.linkedin.com/in/trine-skjødt-391b1310b/"> <img class="iconer" src="image/linkdin_logo.png" alt=""></a>
-        <a href="mailto:mini.skjodt@icloud.com"><img class="iconer" src="image/mail_logo.png" alt=""></a>
+        <a href="https://www.facebook.com/mini.skjodt/"><img class="iconer" src="image/facebook_logo.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/t.skjodt/"><img class="iconer" src="image/instagram_logo.png" alt="Instagram"></a>
+        <a href="https://www.linkedin.com/in/trine-skjødt-391b1310b/"> <img class="iconer" src="image/linkdin_logo.png" alt="Linkedin"></a>
+        <a href="mailto:mini.skjodt@icloud.com"><img class="iconer" src="image/mail_logo.png" alt="Mail"></a>
 
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
